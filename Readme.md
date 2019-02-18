@@ -1,26 +1,25 @@
-# NewsApp (Android-React Native)
-NewsApp built using react native.
+# ElectricBillCalculator(Android)
+ElectricBillCalculator App Developed in Android.
 
 ## Overview
-This NewsApp is built using React Native. In which I have used different components to implement app interface and functionality. 
-* Loading network images
-* Navigation between screens (createStackNavigator)
-* Scrolling list views
-* Props, State & style
-* Data storage using async storage
-* Custom components
- 
-## Functionality 
-* Displays top news headlines covering all categories
-* Accessible channels
-* Bookmarks and search functionality
-* Feedview
 
-source url: https://newsapi.org
+This app calculates your monthly electricity bill based on the stabs
+
+* calculating month electricity bill
+* adding and removing stabs 
+* showing your history 
+
 
 ## Sucess response
-![alt tag](https://github.com/satishtamada/NewsApp-React-Native/blob/master/screensshots/ic_banner.jpg)
+
+![alt tag](https://github.com/satishtamada/ElectricBillCalculator/blob/master/screens/1.jpg)
+![alt tag](https://github.com/satishtamada/ElectricBillCalculator/blob/master/screens/2.jpg)
+![alt tag](https://github.com/satishtamada/ElectricBillCalculator/blob/master/screens/4.jpg)
+![alt tag](https://github.com/satishtamada/ElectricBillCalculator/blob/master/screens/6.jpg)
+![alt tag](https://github.com/satishtamada/ElectricBillCalculator/blob/master/screens/7.jpg)
+![alt tag](https://github.com/satishtamada/ElectricBillCalculator/blob/master/screens/8.jpg)
+
 
 ## Error response
-![alt tag](https://github.com/satishtamada/NewsApp-React-Native/blob/master/screensshots/ic_empty_response.jpg)
 
+![alt tag](https://github.com/satishtamada/ElectricBillCalculator/blob/master/screens/3.jpg)
