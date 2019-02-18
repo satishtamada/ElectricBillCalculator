@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ElectricalEnergyCostCalculator</string>
+    <string name="lbl_calculate">Calculate</string>
+    <string name="add_stabs">Add Stabs</string>
+</resources>

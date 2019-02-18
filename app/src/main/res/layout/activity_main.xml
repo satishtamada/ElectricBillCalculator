@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/idReadingValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meter Reading"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/idServiceNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Service Number" />
+
+        <Button
+            android:clickable="true"
+            android:id="@+id/idBtnCalculatePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/lbl_calculate"
+            android:textColor="@color/colorWhite"
+            android:focusable="true" />
+
+        <Button
+            android:focusable="true"
+            android:id="@+id/idAddStab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/add_stabs"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
